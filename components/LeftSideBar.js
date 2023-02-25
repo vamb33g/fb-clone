@@ -3,7 +3,7 @@ import LeftSideBarLink from './LeftSideBarLink'
 import { BsChevronDown } from 'react-icons/bs'
 import { useSession } from 'next-auth/react'
 
-const LeftSideBar = () => {
+const LeftSidebar = () => {
 
     const {data: session} = useSession()
 
@@ -37,4 +37,4 @@ const LeftSideBar = () => {
   )
 }
 
-export default LeftSideBar
+export default LeftSidebar

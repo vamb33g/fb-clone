@@ -2,8 +2,8 @@ import Head from "next/head";
 import Login from "../components/Login";
 import { getSession, useSession } from "next-auth/react";
 import Navbar from "../components/Navbar";
-import LeftSidebar from "../components/LeftSidebar";
-import RightSidebar from "../components/RightSidebar";
+import LeftSidebar from "../components/LeftSideBar";
+import RightSideBar from "../components/RightSideBar";
 import Feed from "../components/Feed";
 import { useRouter } from "next/router";
 
@@ -25,7 +25,7 @@ export default function Home() {
       <main>
         <Navbar />
         <LeftSidebar />
-        <RightSidebar />
+        <RightSideBar />
         <Feed />
       </main>
     </>
