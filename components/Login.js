@@ -14,7 +14,7 @@ const Login = () => {
         <div className='flex gap-4 bg-[#fff] p-4 px-6 items-center rounded-[6px] cursor-pointer'
         onClick={(() => signIn('google'))}>
             <FcGoogle className='text-[30px]' />
-            Sign with  Google
+            Sign 
         </div>
       </div>
     </div>
